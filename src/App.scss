@@ -1,0 +1,14 @@
+//custom css
+
+html, body {
+    background-color: #eee !important;
+}
+
+.login-box {
+    max-width: 450px;
+    padding: 25px 25px;
+    margin: 75px auto;
+    background-color: #fff;
+}
+
+@import '~bootstrap/scss/bootstrap';
