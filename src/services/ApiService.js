@@ -31,3 +31,16 @@ export const postRequest = async (path,data) => {
         }
     }
 }
+
+export const postRequestFile = async (path,data) => {
+    try {
+        const response = await axios.post(base_url+path,data, {
+            headers: {
+                "Content-Type": "multipart/form-data"
+            }
+        });
+        return response;
+    } catch (error) {
+        
+    }
+}
